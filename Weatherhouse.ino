@@ -2,7 +2,15 @@
 Bonezegei_DHT11 dht(2);
 const int Min = 0; //Sensor minimum of DHT11
 const int Max = 1024; //Sensor maximum of DHT11
+//DHT 11 CONNECTIONS
+//VCC -> 3.3V
+//GND -> GND
+//DOUT -> 2
 
+//MH-RD CONNECTIONS
+//VCC -> 3.3V
+//GND -> GND 
+//A0 -> A0
 
 void setup() {
   Serial.begin(9600);
